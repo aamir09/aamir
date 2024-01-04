@@ -56,24 +56,11 @@ ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowPageNums = true
 ShowToc = true
-images = [ "images/papermod-cover.png" ]
-
-  [params.profileMode]
-  enabled = false
-  title = "PaperMod"
-  imageUrl = "#"
-  imageTitle = "my image"
-
-    [[params.profileMode.buttons]]
-    name = "Archives"
-    url = "archives"
-
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+images = ["static/wave_6.jpg"]
+hero = "static/wave_6.jpg"
 
   [params.homeInfoParams]
-  Title = "Aamir Ahmad Ansari"
+  Title = "Aamir's Blog"
   Content = """
 👋 Welcome to my blog. I talk about AI and its use cases.
 """
@@ -99,7 +86,7 @@ images = [ "images/papermod-cover.png" ]
   url = "https://in.linkedin.com/in/aamir07"
 
   [params.editPost]
-  URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  URL = "https://github.com/aamir09/aamir/tree/main/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
@@ -112,8 +99,8 @@ unsafe = true
 [markup.highlight]
 noClasses = false
 
-[services.instagram]
-disableInlineCSS = true
+# [services.instagram]
+# disableInlineCSS = true
 
 [services.twitter]
 disableInlineCSS = true
