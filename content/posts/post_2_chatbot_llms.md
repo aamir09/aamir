@@ -60,31 +60,31 @@ Image by Author
 
 We are not going to go over all the code but I will provide information on the most important ones. Let’s begin with a walk through of the directory structure.
 
-diary/  
-    main.py  
-    __init__.py  
-    api/  
-        model.py  
+    diary/  
+        main.py  
         __init__.py  
-    database/  
-        manager.py  
-        __init__.py  
-          
-    images/  
-        image-1.png  
-        image-2.png  
-        image.png  
-        logo.jpg  
-    models/  
-        gemini.py  
-        phi2.py  
-        secrests.json  
-          
-    objects/  
-        chatbot.py  
-        page_object.py  
-        utils.py  
-        __init__.py
+        api/  
+            model.py  
+            __init__.py  
+        database/  
+            manager.py  
+            __init__.py  
+	    images/  
+	        image-1.png  
+	        image-2.png  
+	        image.png  
+	        logo.jpg  
+	    models/  
+	        gemini.py  
+	        phi2.py  
+	        secrests.json  
+	          
+	    objects/  
+	        chatbot.py  
+	        page_object.py  
+	        utils.py  
+	        __init__.py
+
 
 The topmost directory under the project dear-diary is  `diary`  where our code sits. It contains 4 subdirectories namely, api, images, models and objects. The  `models`  directory contain code for making an inference pipeline for Microsoft-Phi2 and Google Deepmind’s Gemini models. On the other hand, the  `api`  directory holds the code for fastapi implementation for serving the model. Furthermore, the  `objects`  directory have most of the code for the streamlit app.
 
