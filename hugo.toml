@@ -24,8 +24,8 @@ weight = 1
   series = "series"
 
 [[languages.en.menu.main]]
-name = "Archive"
-url = "archives"
+name = "Home"
+url = "/"
 weight = 5
 
 [[languages.en.menu.main]]
@@ -34,13 +34,9 @@ url = "search/"
 weight = 10
 
 [[languages.en.menu.main]]
-name = "Tags"
-url = "tags/"
+name = "Blogs"
+url = "posts/"
 weight = 10
-
-[[languages.en.menu.main]]
-name = "WiKi"
-url = "https://github.com/aamir09"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
