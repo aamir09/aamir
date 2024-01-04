@@ -46,7 +46,7 @@ env = "production"
 description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
 author = "Theme PaperMod"
 defaultTheme = "auto"
-ShowShareButtons = true
+ShowShareButtons = false
 ShowReadingTime = true
 displayFullLangName = true
 ShowPostNavLinks = true
@@ -55,6 +55,7 @@ ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowPageNums = true
+comments = true
 ShowToc = true
 images = ["static/wave_6.jpg"]
 hero = "static/wave_6.jpg"
@@ -104,3 +105,7 @@ noClasses = false
 
 [services.twitter]
 disableInlineCSS = true
+
+# [services]
+#   [services.disqus]
+#     shortname = 'disqus_XaAGBg0wKt'
