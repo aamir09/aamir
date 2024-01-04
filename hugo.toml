@@ -59,6 +59,7 @@ comments = true
 ShowToc = true
 images = ["static/wave_6.jpg"]
 hero = "static/wave_6.jpg"
+googleAnalytics = "G-QBJB6KZSED"
 
   [params.homeInfoParams]
   Title = "Aamir's Blog"
