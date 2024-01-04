@@ -28,10 +28,10 @@ name = "Home"
 url = "/"
 weight = 5
 
-[[languages.en.menu.main]]
-name = "Search"
-url = "search/"
-weight = 10
+# [[languages.en.menu.main]]
+# name = "Search"
+# url = "search/"
+# weight = 10
 
 [[languages.en.menu.main]]
 name = "Blogs"
