@@ -1,11 +1,11 @@
 ---
-title: "The K-Arm Bandit Problem - (Part One)"
+title: "The K-Arm Bandit Problem - Part One"
 date: 2024-02-11
 draft: false
 ShowToc: true
 ---
-
 # Introduction
+
 In this blog we are going to explore and solve a basic problem in the reinforcement learning paradigm; the k-arm bandit problem. It states that, given k-arms or levers you can pull anyone at any timestep $t$ and reap a reward $r_k$ corresponding to the lever. Our goal is to maximize the cumulative reward $R$ over a sequence of timesteps $T$.  
 
 ## Prerequisites 
